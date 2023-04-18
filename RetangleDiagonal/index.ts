@@ -17,7 +17,3 @@ class RetangleDiagonal {
     }
 
 }
-
-const calulate = new RetangleDiagonal(15, 8)
-
-console.log(calulate.diagonal)
