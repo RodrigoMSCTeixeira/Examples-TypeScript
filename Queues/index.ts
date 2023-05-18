@@ -65,7 +65,6 @@ class Queue implements MyQueue {
         return this.items[this.lowestCount];
     };
 
-
     size = () => {
         return this.count - this.lowestCount;
     };
