@@ -69,9 +69,3 @@
 // unshift( item1, item2, ..., itemX ) Adiciona novos elementos ao início de uma matriz e retorna o novo comprimento
 
 // valueOf() Retorna o valor primitivo de um array
-
-const cars = ["Saab", "Volvo", "BMW"];
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-const text = fruits.constructor;
-
-console.log(text);

@@ -41,7 +41,3 @@
 // toString( raiz ) Converte um número em uma string
 
 // valueOf() Retorna o valor primitivo de um número
-
-let pattern = /w3schools/i;
-
-console.log(typeof pattern);
