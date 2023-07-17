@@ -1,72 +1,72 @@
-// at()	Retorna um elemento indexado de um array
+// at( index? )	Retorna um elemento indexado de um array
 
-// concat()	Une arrays e retorna um array com os arrays unidos
+// concat( array1, ... ) Une arrays e retorna um array com os arrays unidos
 
 // constructor	Retorna a função que criou o protótipo do objeto Array
 
-// copyWithin(target, start?, end?)	Copia os elementos do array dentro do array, de e para as posições especificadas
+// copyWithin(alvo, início?, fim?)	Copia os elementos do array dentro do array, de e para as posições especificadas
 
 // entries() Retorna um par chave/valor Array Objeto de iteração
 
-// every() Verifica se todos os elementos em uma matriz passam em um teste
+// every( function(item, index?, arr?), thisValue? ) Verifica se todos os elementos em uma matriz passam em um teste
 
-// fill()	Preencha os elementos em uma matriz com um valor estático
+// fill( value, start?, end? ) Preencha os elementos em uma matriz com um valor estático
 
-// filter()	Cria uma nova matriz com cada elemento em uma matriz que passa em um teste
+// filter( function(item, index?, arr?), thisValue ) Cria uma nova matriz com cada elemento em uma matriz que passa em um teste
 
-// find() Retorna o valor do primeiro elemento em uma matriz que passa em um teste
+// find( function(item, index?, arr?), thisValue ) Retorna o valor do primeiro elemento em uma matriz que passa em um teste
 
-// findIndex() Retorna o índice do primeiro elemento em uma matriz que passa em um teste
+// findIndex( function(item, index?, arr?), thisValue ) Retorna o índice do primeiro elemento em uma matriz que passa em um teste
 
-// flat() Concatena os elementos do sub-array
+// flat( 1 ) Concatena os elementos do sub-array
 
-// flatMap() Mapeia todos os elementos da matriz e cria uma nova matriz plana
+// flatMap( function(item, index?, arr?), thisValue ) Mapeia todos os elementos da matriz e cria uma nova matriz plana
 
-// forEach() Chama uma função para cada elemento do array
+// forEach( function(item, index?, arr?), thisValue ) Chama uma função para cada elemento do array
 
-// from() Cria um array a partir de um objeto
+// from( object, mapFunction?, thisValue? ) Cria um array a partir de um objeto
 
-// includes() Verifique se uma matriz contém o elemento especificado
+// includes( element, start? ) Verifique se uma matriz contém o elemento especificado
 
-// indexOf() Pesquise na matriz por um elemento e retorne sua posição
+// indexOf( item, start? ) Pesquise na matriz por um elemento e retorne sua posição
 
-// isArray() Verifica se um objeto é um array
+// Array.isArray( obj ) Verifica se um objeto é um array
 
-// join() Une todos os elementos de um array em uma string
+// join( separator ) Une todos os elementos de um array em uma string
 
 // keys() Retorna um Array Iteration Object, contendo as chaves do array original
 
-// lastIndexOf() Pesquise um elemento no array, começando no final, e retorne sua posição
+// lastIndexOf( item, start? ) Pesquise um elemento no array, começando no final, e retorne sua posição
 
 // length Define ou retorna o número de elementos em uma matriz
 
-// map() Cria um novo array com o resultado da chamada de uma função para cada elemento do array
+// map( function(item, index?, arr? ), thisValue ) Cria um novo array com o resultado da chamada de uma função para cada elemento do array
 
 // pop() Remove o último elemento de uma matriz e retorna esse elemento
 
 // prototype Permite adicionar propriedades e métodos a um objeto Array
 
-// push() Adiciona novos elementos ao final de uma matriz e retorna o novo comprimento
+// push( item1, item2, ..., itemX ) Adiciona novos elementos ao final de uma matriz e retorna o novo comprimento
 
-// reduce()	Reduza os valores de uma matriz para um único valor (indo da esquerda para a direita)
+// reduce( function(total, item, currentIndex?, arr?), initialValue? ) Reduza os valores de uma matriz para um único valor (indo da esquerda para a direita)
 
-// reduceRight() Reduzir os valores de uma matriz para um único valor (da direita para a esquerda)
+// reduceRight( function(total, item, currentIndex?, arr?), initialValue? ) Reduzir os valores de uma matriz para um único valor (da direita para a esquerda)
 
 // reverse() Inverte a ordem dos elementos em uma matriz
 
 // shift() Remove o primeiro elemento de uma matriz e retorna esse elemento
 
-// slice() Seleciona uma parte de um array e retorna o novo array
+// slice( start?, end? ) Seleciona uma parte de um array e retorna o novo array
 
-// some() Verifica se algum dos elementos em uma matriz passa em um teste
+// some( function(value, index?, arr?), this ) Verifica se algum dos elementos em uma matriz passa em um teste
 
-// sort() Ordena os elementos de um array
+// sort( compareFunction? ) Ordena os elementos de um array
 
-// splice()	Adiciona/Remove elementos de um array
+// splice( index, howmany?, item1, ....., itemX? )	Adiciona/Remove elementos de um array
 
 // toString() Converte uma matriz em uma string e retorna o resultado
 
-// unshift() Adiciona novos elementos ao início de uma matriz e retorna o novo comprimento
+// unshift( item1, item2, ..., itemX ) Adiciona novos elementos ao início de uma matriz e retorna o novo comprimento
 
 // valueOf() Retorna o valor primitivo de um array
 
